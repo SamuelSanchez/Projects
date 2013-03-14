@@ -1,0 +1,14 @@
+How may i help you?
+i want to make a doctor's appointment
+create a doctor's appointment
+Do you want to also provide date time location ?
+on may 5th at 10
+create a doctor's appointment on  may 5th at 10 o'clock
+Do you want to also provide location ?
+in manhattan
+create a doctor's appointment on  may 5th at 10 o'clock in manhattan?
+yes
+Okay I'm going to create doctor's appointment on  may 5th at 10 o'clock  in manhattan
+What else do you need?
+exit
+bye

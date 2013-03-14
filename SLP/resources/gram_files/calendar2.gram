@@ -1,0 +1,37 @@
+#JSGF V1.0;
+
+/**
+ * JSGF agenda Grammar for Calendar Program
+ */
+
+grammar calendar;
+
+public <sentence> = [<options>]<types><date>[<locations>] |
+			   <date>[<options>]<types>[<locations>];
+
+public <options> = ( 	I have | 
+			     	I would like to | 
+			     	I want to | 
+				I am going to | 
+				I will | 
+				Can I | 
+				let me | 
+				Please);
+
+public <type> = ( add<name> | 
+			  delete<name>| 	
+			  remove<name> | 
+			  show[me][<name>] );
+
+public <name> = [meeting | doctor appointment | appointment | driving test];
+
+public <date> = [on](<month> | <numbers>) *[ [at | in ] <time> [AM | PM | the morning | the Afternoon | the evening | at night)]; 
+
+
+public <month> = (January | February | March | April | May | June | July | August | September | October | November | December);
+ 
+
+public <numbers> =( one | first | two | second | three | third | four  | fourth | five | fifth | six | sixth | seven | seventh | eight | eighth | nine | ninth |  ten | tenth | eleven | eleventh | twelve | twelfth | thirteenth |fourteenth | fifteenth | sixteenth | seventeenth | eighteenth | nineteenth | thirteen |fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty | twentieth | thirtieth | thirty )*;
+
+pubic <locations> = [at | in](Manhattan | Queens | Bronx | Brooklyn | School | doctor office | hospital | DMV );
+

@@ -1,0 +1,37 @@
+//Clique
+//To debug place : DEBUG true
+//Place the name of the inputs before the values
+//Everything is separated by space
+//For the values put:
+//Clique 10
+//Item names are not case sensitive, therefore A != a
+//For G.A. parameters, just place the name before it
+//The following parameters are valid:
+//			- MAX_GENERATIONS
+//			- POPULATION_SIZE
+//			- CROSSOVER_RATE	//percentage
+//			- MUTATION_RATE		//percentage
+//Also, there should not be repeated names, otherwise any
+//the latest value will be kept
+//To place nodes, do it in this format : Node A B
+//where node A goes to node B
+
+DEBUG false
+
+MAX_GENERATIONS		10000
+POPULATION_SIZE		10
+CROSSOVER_RATE		0.05
+MUTATION_RATE		0.01
+
+Clique 4
+
+Node A B
+Node A C
+Node B D
+Node C D
+Node E C
+Node E D
+Node E F
+Node C F
+Node D F
+

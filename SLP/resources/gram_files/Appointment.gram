@@ -1,0 +1,30 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Digits Grammar for Hello World example
+ */
+
+grammar Appointment;
+
+public <sentence> = (
+<type> <date> <time> |
+<type> <time> <date> | 
+<date> <type> <time> | 
+<date> <time> <type> | 
+<time> <date> <type> | 
+<time> <type> <date>) <location> ;
+
+public <type> = [I want to | Let me | I would like to] (make | add | put) a (doctor's appointment | dentist's appointment | client's appointment | reminder <note>);
+
+public <date> = (on | for) ((January | February | March | April | May | June | July | August | September | October | November | December) <largeDays> | <largeDays> of (January | February | March | April | May | June | July | August | September | October | November | December));
+
+public <time> = at (one | two | three | four | five | six | seven | eight | nine | ten | eleven | twelve) O' clock;
+
+public <location> = in (Manhattan | Queens | Bronx | Brooklyn | Staten Island);
+
+public <note> = to meet up with friend | to go to pick up a package;
+
+public <day> = one | first | two | second | three | third | fourth | four | fifth | five | sixth | six | seventh | seven | eighth | eight | ninth | nine; 
+
+public <largeDays> = <day> | tenth | ten | eleventh | eleven | twelfth | twelve | thirteenth | thirteen | fourteenth | fourteen | fifteenth | fifteen | sixteenth | sixteen | seventeenth | seventeen | eighteenth | eighteen | nineteenth | nineteen | twentieth | twenty <day>| thirtieth | thirty | thirty first | thirty one;
+

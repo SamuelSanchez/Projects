@@ -1,0 +1,30 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar calendar;
+
+
+/**
+ * Defines the set of standard sentece for the calendar project
+ */
+///public <general> = ( <affirmation> | <sentence> | <appointment_type> {this.appointment_type=$appointment_type.$value} | <master_commands>);
+
+public <sentence> = [<NULL>] [<start>] [<command> {this.command=$command.$value}] [[a|an] <appointments> {this.appointment=$appointments.$value} | <reminders> {this.appointment=$reminders.$value} ] [[on | for] <date> {this.date=$date.$value}] [at <time>{this.time=$time.$value}] [[in] <location>{this.location=$location.$value}];
+
+public <location> = manhattan | queens | bronx | staten island;
+public <start> = ( I (want | [would] like) to) |Let me;
+
+public <command> = (make | add | put | schedule | create) {this.$value="add"} | (delete | cancel) {this.$value="remove"} | (yes) {this.$value="upload"} | (no | exit) {this.$value="no"};
+
+public <appointments> = (( doctors | dentists | schools ) [appointment] | appointment) ;
+
+public <reminders> = ( meet [up] with a friend ) | meeting ;
+
+public <date> = (January | February | March | April | May | June | July | August | September | October | November | December) <day>;
+
+public <day> = one | first | two | second | three | third | fourth | four | fifth | five | sixth | six | seventh | seven | eighth | eight | ninth | nine | tenth | ten | eleventh | eleven | twelfth | twelve | thirteenth | thirteen | fourteenth | fourteen | fifteenth | fifteen | sixteenth | sixteen | seventeenth | seventeen | eighteenth | eighteen | nineteenth | nineteen | twentieth | thirtieth | twenty one | twenty first | twenty two | twenty second | twenty three | twenty third | twenty fourth | twenty four | twenty fifth | twenty five | twenty sixth | twenty six | twenty seventh | twenty seven | twenty eighth | twenty eight | twenty ninth | twenty nine | thirty | thirtieth | thirty first | thirty one;
+
+public <time> = (one | two | three | four | five | six | seven | eight | nine | ten | eleven | twelve) [O clock] (AM | PM){this.$value=this.$value};

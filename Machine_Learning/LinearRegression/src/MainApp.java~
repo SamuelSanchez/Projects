@@ -1,0 +1,29 @@
+import java.io.IOException;
+
+
+public class MainApp {
+	private LinearRegressionParser linearRegressionParser;
+	private LinearRegression linearRegression;
+	
+	public MainApp( String[] args ) throws Exception{
+		if( args == null || args.length != 4 ){
+			throw new Exception( "Error : Arguments " + ( args == null ? "is null!" : "is not of length 4" ));
+		}
+		
+		this.linearRegressionParser = new LinearRegressionParser( args[0], args[1]);
+		this.linearRegression = new LinearRegression( Integer.parseInt( args[2] ), Double.parseDouble( args[3] ) );
+	}
+	
+	public void execute() throws LinearRegressionException, IOException{
+		linearRegressionParser.init();
+	}
+	
+	public static void main(String[] args){
+		try{
+			MainApp mainApp = new MainApp( args );
+			mainApp.execute();
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+}

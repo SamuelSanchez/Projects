@@ -1,0 +1,22 @@
+* This methods are for running the program by itself. Not for running the program with the experiments.
+  For running the experiments read the "ReadMe" inside the HRTeam directory
+
+* In order to Run "Task Manager", the Central Server must be running
+
+To Run Auctioneer:
+   1) Go  inside Advisor_dev directory
+
+   To Create Random Points:
+     2) ./TaskManager -r 10
+         + Where r can be followed by any number
+         + If a good set of points is generated, then go inside the "config_files" folder
+           and [copy and] rename the file "points.conf" to your choise, but this new name
+           must be added to the [run_aamas_exp.sh] script when running the experiments.
+
+   To Load Points from file:
+     2) ./TaskManager -f config_files/auction.conf -m 3 -n 8 -a 2 -p config_files/points16.conf 
+        + p is followed by the file where thee points are located
+ 
+   To displayed Fixed Points:
+     2) Type: ./TaskManager -f config_files/auction.conf -m 3 -n 8 -a 1
+        + Where n can be followed by 2, 5, 8 or 9

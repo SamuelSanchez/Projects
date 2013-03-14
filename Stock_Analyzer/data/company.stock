@@ -1,0 +1,10 @@
+//	<Symbol> must be followed by the correct symbol name
+//	<Name> must be followed by the correct or partial company name
+//	'//' denotes comments line
+//	Characters must be separated by white space
+//	Two words per line will be read. If less words then skip, if more, then read the first two
+
+Symbol	GOOG
+Symbol	IBM
+Name	Netflix
+Name	Microsoft

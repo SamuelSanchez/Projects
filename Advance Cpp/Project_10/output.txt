@@ -1,0 +1,359 @@
+a: 3, 11, 20, 29, 37, 46, 54, 55, 62, 65, 70, 72, 78, 82, 94, 102, 108, 109(3), 113, 114
+about: 60, 61(2), 65
+accusations: 51
+actually: 73
+all: 109, 116
+am: 1, 9, 18, 26, 44, 76, 92, 100
+an: 53, 84, 98
+and: 2, 10, 19, 28, 32, 35, 53, 57, 58, 59, 61, 64, 69, 75, 77, 85, 89, 93, 101, 112, 116(2)
+annoyed: 44
+anything: 7, 23, 41, 60
+are: 62, 68, 101(2), 108, 110
+argument: 70
+arrival: 15, 89
+art: 53, 108
+article: 72
+artists: 60, 62, 66
+as: 8, 24, 42, 74, 83, 99, 107, 113, 114, 116
+at: 44
+aware: 13, 87
+bad: 57, 69
+basic: 53
+battles: 114(2)
+be: 53, 65, 75, 106, 115
+beautiful: 66
+been: 27, 54
+being: 69
+blade: 8, 17, 36
+blades: 3, 11, 29, 109
+blatant: 51
+blinded: 110
+block: 43
+blood: 2, 10, 19, 77, 85, 93, 101, 109
+blud: 28
+body: 2, 10, 19, 27, 77, 93, 101
+bone: 1, 9, 18, 26, 84
+both: 44
+brain: 85
+brings: 110
+but: 115
+buttons: 76
+by: 110, 116
+caffeiene: 19
+can: 53, 109
+cant: 48, 50
+cause: 88
+challenge: 59
+charts: 95
+choices: 113, 116
+cited: 74
+classes: 22, 23
+clicking: 93
+combos: 81
+continue: 51
+control: 96
+conversation: 46
+counter: 100
+countercounters: 103
+crabs: 101
+create: 6, 14, 41
+created: 3, 11, 78, 94, 102
+creatures: 109
+credible: 72
+crowd: 96
+deadlines: 20
+death: 4, 31
+definition: 74
+denied: 71
+destroy: 105
+did: 58
+didnt: 60
+differences: 110
+dishonest: 86
+do: 50, 59, 111
+does: 52
+doesnt: 49
+done: 54
+doth: 35
+down: 63, 64
+dps: 95
+elitist: 67
+elitists: 61, 108
+epic: 98
+essay: 18, 25
+european: 78
+even: 71
+every: 75
+everywhere: 51
+facts: 87
+fail: 22
+feral: 45
+finish: 82
+fire: 2, 10
+first: 45, 71
+foes: 100
+follow: 61
+for: 15, 51, 74, 89, 115
+forebears: 116
+forged: 30
+format: 21
+free: 113, 114
+fresh: 66
+friend: 69
+from: 113, 114, 116(2)
+fyre: 28
+gaiman: 58
+gain: 13
+game: 65
+games: 63
+generic: 52
+geniuses: 61
+get: 86
+glory: 109
+godtier: 106
+good: 39, 57, 112
+grades: 21
+grasp: 34
+great: 58, 65, 108
+grind: 92
+had: 46, 57, 70
+hand: 24
+hands: 7, 34, 41, 50, 82, 98
+hardpressed: 65
+has: 54, 75
+hast: 27
+hate: 75, 91
+have: 3, 6, 11, 16, 20, 22, 30, 37, 40, 78, 81, 90, 94, 97, 102, 105, 115
+haze: 104
+her: 45
+here: 49
+hero: 55
+hes: 55, 56
+hold: 7, 98
+how: 72, 73
+humor: 38
+hurt: 49
+i: 1, 3, 8, 9, 11, 16, 18, 20, 24, 26, 30, 35, 37, 42, 44, 60, 61, 70, 75, 76, 78, 83, 90, 91, 92, 94, 99, 100, 102, 107, 115(2)
+idiot: 84
+if: 52, 71
+ignorant: 31
+ignore: 111
+ignored: 20
+immense: 54
+in: 24, 75, 109, 116
+inbattle: 116
+interpret: 74
+is: 2(2), 10(2), 16, 19(2), 45, 53, 66, 69(2), 72, 77(2), 85(2), 90, 93(2), 108, 112
+isnt: 74
+it: 49, 52, 58, 74
+item: 116(2)
+its: 49, 52, 72, 108, 109, 115
+jp: 80
+keyboard: 77, 93
+kid: 54
+knapsack: 116
+know: 109
+known: 5, 21, 39, 80, 96, 104
+lack: 113, 114
+learn: 73
+leeroy: 99
+leftovers: 101
+level: 115
+life: 5, 17, 31
+like: 49
+limit: 116
+limited: 116
+limits: 116
+lo: 115
+logic: 87
+long: 59
+look: 63, 64
+loop: 82
+loss: 12
+lowtraffic: 72
+made: 70
+man: 116
+many: 6, 14, 22, 40, 81, 97, 105
+mash: 76
+matter: 52
+mechanics: 64
+mention: 75
+missed: 67
+missing: 68
+mla: 21
+mode: 115
+more: 50, 70
+morons: 40
+movement: 113
+moves: 106
+much: 75, 88, 91
+my: 1, 2(2), 9, 10(2), 17, 18, 19(2), 27, 59, 67, 76, 77(2), 92, 93(2), 100, 101(2)
+neil: 58
+neutral: 56
+never: 7, 23, 34, 41, 66, 82, 98, 106
+no: 16, 90
+nor: 5, 13, 21, 31, 39, 80, 87, 96, 104, 111
+not: 49, 89, 110
+now: 51
+of: 1, 9, 12, 13, 18, 26, 27, 28, 44, 49, 67, 75, 76, 87(2), 92, 100, 108, 109(2), 113, 114
+on: 63, 64, 75
+one: 47, 71, 74, 116(2)
+ones: 15, 57
+only: 16, 74, 90
+optional: 115
+options: 113
+other: 48
+others: 71
+our: 116
+over: 3, 11, 20, 37, 46, 54, 62, 78, 94, 102, 109
+pad: 77
+pain: 6, 14, 32, 81, 88, 97
+painful: 72
+painfully: 57
+passing: 21
+path: 16, 90
+place: 116
+play: 83, 99, 107
+plenty: 33
+plot: 53, 57
+point: 67, 68
+pointless: 113
+politics: 86
+power: 54
+practice: 81, 115
+pratchett: 58
+pray: 8, 35, 42
+procrastination: 19
+productive: 50
+protest: 88
+pugs: 97
+put: 116
+quotes: 37
+racism: 75
+rage: 40
+rages: 102
+raid: 94
+random: 109, 114(2)
+rant: 67
+read: 37, 71
+reading: 69
+regrets: 16, 90
+related: 75
+removing: 116
+replacement: 115
+reputation: 92
+resets: 78
+responsibility: 22
+rest: 49
+result: 58
+returned: 115
+riviera: 67, 108, 109, 110
+rpgs: 110
+rule: 116
+same: 57
+say: 60, 115
+scrub: 83
+see: 40, 48, 109, 112, 113, 114, 115, 116
+selective: 69
+shall: 115
+shalt: 34
+should: 71, 73, 88
+shouldnt: 86
+shut: 47, 91
+since: 75
+single: 70
+sit: 97
+site: 75
+slowbro: 107
+so: 8, 24, 35, 42, 59, 65, 66, 75, 83, 91, 99, 107
+some: 75
+something: 50, 66
+sometimes: 56
+spells: 109
+spontaneaous: 43
+starmies: 105
+steel: 2, 10, 27, 85
+stop: 59
+stories: 57
+story: 59
+storytelling: 53
+strategic: 116
+sturm: 45
+sword: 1, 9, 26
+talking: 61
+taste: 39
+teach: 23
+tell: 65
+terry: 58
+than: 70
+that: 75, 110, 116
+the: 1, 9, 16, 18, 48, 49, 51, 53, 54, 57, 58, 61, 67, 68, 71(2), 74, 76, 84, 90, 92, 100, 109(2), 110, 113, 114, 116(2)
+them: 111, 112
+then: 45
+there: 62, 74
+these: 41, 82, 98, 106
+they: 65
+thine: 34
+thing: 54
+think: 72, 75
+this: 16, 46, 75, 90, 112
+those: 7, 23, 66
+though: 72
+thousand: 3, 11, 20, 29, 37, 46, 54, 62, 78, 94, 102, 109(3)
+through: 97
+thunderbolts: 105
+thus: 32
+thy: 26(2)
+times: 46, 54
+to: 4, 5, 6, 14, 21(2), 22, 31, 32, 38, 39, 40, 65, 74, 75(2), 79, 80, 81, 84, 86, 95, 96, 97, 103, 104, 105, 110, 113, 114, 115(2)
+trolls: 45
+truths: 89
+turning: 93
+types: 109
+unaware: 12, 87
+understand: 66, 112
+ungrateful: 45
+unique: 65
+unknown: 4, 21, 38, 79, 95, 103
+unlimited: 8, 17, 25, 36, 83, 99, 107
+until: 73, 91
+up: 47, 91, 115
+us: 49, 113, 114, 115
+used: 53, 86
+usually: 55
+variance: 109
+verily: 29
+video: 65
+wait: 73, 89
+waiting: 15
+was: 17, 58, 61
+way: 74, 75, 113, 114
+we: 51, 57, 61, 86, 88, 108, 109(2), 110, 111, 112(2), 113, 114, 115, 116
+weapon: 116
+weaponry: 33
+weapons: 6, 14
+wear: 116
+weve: 46
+whats: 65
+when: 58
+whining: 59
+who: 63, 109
+whole: 17, 67
+why: 48, 66
+wikipedia: 72, 73
+will: 7, 23, 41, 66, 82, 98, 106
+winning: 79
+wipes: 94
+with: 50, 51, 54, 57, 88
+withstood: 6, 14, 22, 32, 40, 81, 97, 105
+wont: 47
+work: 108
+works: 8, 17, 25, 36, 73, 83, 99, 107
+would: 65
+writers: 43
+wrogt: 27
+yellow: 85
+yet: 7, 23, 41, 58, 82, 98, 106
+you: 44, 50, 65, 67, 68, 71(2), 72, 73(2), 74, 75(3), 91(2), 115
+your: 50, 69, 85(2)
+youre: 84

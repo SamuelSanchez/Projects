@@ -1,0 +1,34 @@
++ In order to run the experiments, the central server must be running.
+
+
+1) Running the Central Server
+   Go inside the directory "CentralServer"
+   Open a console and type :
+            ./skygrid -l NAME.log -p 6667
+
+   + where NAME is the name of the logs ( events that happen in the Central Server )
+     and p is the port number. Let's leave the port to default 6667.
+
+2) Running the experiments
+
+    2.1) Running fixed points:
+         a) run the script "run_aamas_exp.sh" located inside the directory "aamas12_scripts"
+             - Inside the dir type : ./run_aamas_exp.sh
+             - Select 1 for distributed robots
+             - Select either 3 or 4 (for the number of robots)
+
+    2.2) Running random generated points:
+        a) Same as above but before running the experiment, the script must be modify
+           - Open aamas12_scripts with an editor and comment line 21 and uncomment line 20
+             The difference is that after -a is 2 instead of 1 (2 is to load points & 1 is to used fixed points).
+
+           i) Running 10 random points :
+              - For 3 robots : in the script comment line 13 and uncomment line 17 (points10_2.conf)
+              - For 4 robots : in the script commnet line 13 and uncomment line 16 (points10_3.conf)
+
+           ii) Running 11 random points :
+              - For 3 robots : in the script comment line 13 and uncomment line 15 (points11.conf)
+              - For 4 robots : in the script comment line 13 and uncomment line 14 (points11_2.conf)
+
+           iii)  Running 13 random points :
+              - It's by default 13 points. But make sure that lines 14 to 20 are commentted and that line 13 is uncommented

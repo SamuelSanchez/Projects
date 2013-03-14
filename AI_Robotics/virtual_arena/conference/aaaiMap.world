@@ -1,0 +1,53 @@
+
+include "map.inc"
+
+
+include "surveyor.inc"
+
+
+# size of the whole simulation
+size [2.04 1.97]
+
+interval_sim 100
+interval_real 100
+
+
+# configure the GUI window
+window
+(
+   size [ 598.000 573.000 ]
+   # 2.04/500 rounded up a bit  
+   scale 0.004	# map_size/window_size
+)
+# load an environment bitmap
+map
+(
+   bitmap "aaai_arena.png"
+   size [2.04 1.97]  #the size in metres of the world. 
+   name "arena"
+)
+
+# create a robot
+surveyor
+(
+  name "robot1"
+  color "grey"
+  pose [0.266 0.421 374.036]
+  watchdog_timeout -1.0
+)
+
+surveyor
+(
+  name "robot2"
+  color "light grey"
+  pose [0.030 0.066 93.186]
+  watchdog_timeout -1.0
+)
+
+#surveyor
+#(
+#  name "robot3"
+#  color "dark grey"
+#  pose [0 .25 75]
+#  watchdog_timeout -1.0
+#)

@@ -1,0 +1,20 @@
+// Robot configuration file
+// 1. use '//' for comments
+// 2. to specify the central server : 
+//    central_server <hostname> <port>
+// 3. to add a map file: 
+//    map <map_file>
+
+
+advisor coordinator Auction_Test
+mode AUCTION
+//central_server 192.168.1.101 6667
+//central_server 192.168.1.109 6667
+//central_server 127.0.0.1 6667
+central_server 146.245.176.131 6667
+//map config_files/map-demo-15jun11.conf
+//map config_files/map-demo-aaai-test.conf
+//map ../../config_files/map-aamas12.conf
+map map-aamas12.conf
+ranger 90 //for map
+//ranger 69
